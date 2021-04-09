@@ -1,0 +1,29 @@
+.nav-container {
+	position: absolute;
+	text-align: right;
+	background: cover;
+	right: 0;
+	padding-right: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	top: 0;
+	width: 100%;
+}
+
+
+.nav-menu a {
+	text-decoration: none;
+	font-size: 15px;
+	font-weight: bold;
+	font-family: 'roboto',sans-serif;
+	text-transform: uppercase;
+	color: #dbe2ef;
+	margin-left: 50px;
+	letter-spacing: 5px;
+
+}
+
+.nav-menu a:hover {
+	border-radius: 10%;
+	color: #40a8c4;
+}

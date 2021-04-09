@@ -1,0 +1,59 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #061f33;
+  color: white;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*header*/
+.bg-img {
+  position: fixed;
+  height: auto;
+  width: 100%;
+  z-index: -1;
+}
+
+.header {
+  font-family: 'Open sans',sans-serif;
+}
+
+.about {
+  width: 80%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+h1 {
+  text-align: center;
+  color: #40a8c4;
+  font-size: 2.75rem;
+  padding: 50px;
+  margin: 0;
+}
+
+
+/* footer */
+.footer {
+
+  width: 100%;
+  background: none;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.footer a{
+  font-size: 2rem;
+  padding-right: 25px;
+  color: #f9f7f7;
+}
+
+.footer p{
+  color: #f9f7f7;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px)

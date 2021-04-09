@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url("images/background1edit1.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+
+.header h1  {
+  text-align: center;
+  padding-top: 250px;
+  color: #f9f7f7;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.header p {
+  text-align: center;
+  font-size: 20px;
+  color: #f9f7f7;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+footer {
+  position: fixed;
+  background: none;
+  text-align: center;
+  width: 100%;
+  height: auto;
+  padding-top: 10px;
+  bottom: 0;
+}
+
+.footer a{
+  font-size: 2rem;
+  padding-right: 25px;
+  color: #f9f7f7;
+}
+
+.footer p{
+  color: #f9f7f7;
+  margin-top: 0;
+  margin-bottom: 0;
